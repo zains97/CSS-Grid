@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: min-max(100px, auto);
+  gap: 0.5em;
+}
+
+.grid > div {
+  background-color: steelblue;
+}
